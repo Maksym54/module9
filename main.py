@@ -52,7 +52,7 @@ def command_parser(raw_str: str):
     return None, []
 
 COMMANDS = {
-    add_handler: ["add", "+"],
+    add_handler: ["add"],
     exit_handler: ["good bye", "close", "exit"],
     enter_handler: ["hello"],
     change_phone: ["change"],
